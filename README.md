@@ -9,10 +9,15 @@ The **Checkout** button does nothing on purpose — real payments come later.
 
 ## What is in the box
 
-| Folder    | What it is                                                       |
-| --------- | ---------------------------------------------------------------- |
-| `client/` | The website you see in the browser. React + TypeScript + Vite.    |
-| `server/` | The API that hands out the list of fans. Express + TypeScript.    |
+| Folder                   | What it is                                             |
+| ------------------------ | ------------------------------------------------------ |
+| `client/`                | The website you see in the browser. React + TS + Vite.  |
+| `server/`                | The API that hands out the list of fans. Express + TS.  |
+| `client/public/images/`  | The product photos. Anything in `public/` is served as-is, so `/images/gale-force-200.jpg` in the code maps straight to a file in here. |
+
+The photos are real pictures of real computer fans, borrowed from Wikimedia
+Commons. `client/public/images/ATTRIBUTION.md` lists who took each one and
+under what licence — leave that file in place.
 
 Three pages:
 

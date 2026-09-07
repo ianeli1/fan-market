@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+
+# Maintainer-only files, not for the person working the tickets.
+TICKETS.md
+ANSWER-KEY.md
