@@ -196,24 +196,3 @@ npm install
 rm -rf node_modules client/node_modules server/node_modules package-lock.json
 npm install
 ```
-
----
-
-## Working on a ticket
-
-1. Read the ticket you have been assigned.
-2. Reproduce it in the browser first. Do not start editing until you have seen
-   the wrong behaviour with your own eyes.
-3. Find the code. The ticket tells you which page or feature is involved; use
-   the folder table above to guess the file, or search the project:
-   ```bash
-   grep -rn "Add to cart" client/src
-   ```
-4. Make the smallest change that fixes it.
-5. Check it in the browser, then run `npm run typecheck` to be sure you did not
-   break the types.
-6. Open your browser's developer tools (`F12`) and look at the **Console** tab.
-   React prints warnings there that often point straight at a bug.
-
-Good luck, and remember: the fastest way to find a bug is to read the code that
-runs *just before* the thing that looks wrong.
