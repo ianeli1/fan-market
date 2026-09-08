@@ -17,5 +17,5 @@ app.get("/api/health", (req, res) => {
 app.use("/api/fans", fansRouter);
 
 app.listen(PORT, () => {
-  console.log("Fan Market API is running on http://localhost:3000");
+  console.log(`Fan Market API is running on http://localhost:${PORT}`);
 });
