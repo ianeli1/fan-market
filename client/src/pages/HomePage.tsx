@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <>
       <section className="hero">
-        <h1>Keep your biuld cool.</h1>
+        <h1>Keep your build cool.</h1>
         <p>
           Hand picked case fans for quiet desks, cramped cases and very shiny
           gaming rigs. Free shipping on orders over $50.
