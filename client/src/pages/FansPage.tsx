@@ -92,7 +92,7 @@ export default function FansPage() {
         <p className="muted">No fans match your search.</p>
       )}
 
-      <div className="gr`id`">
+      <div className="grid">
         {visibleFans.map((fan) => (
           <FanCard key={fan.id} fan={fan} />
         ))}
