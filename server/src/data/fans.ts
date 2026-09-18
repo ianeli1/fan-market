@@ -43,7 +43,7 @@ export const fans: Fan[] = [
     image: "/images/tornado-static-120.jpg",
   },
   {
-    id: 2,
+    id: 3,
     name: "Tornado Static 140",
     brand: "Tornado",
     size: 140,
@@ -56,7 +56,7 @@ export const fans: Fan[] = [
     image: "/images/tornado-static-140.jpg",
   },
   {
-    id: 3,
+    id: 4,
     name: "Vortex RGB 140 Pro",
     brand: "Vortex",
     size: 140,
@@ -69,7 +69,7 @@ export const fans: Fan[] = [
     image: "/images/vortex-rgb-140-pro.jpg",
   },
   {
-    id: 4,
+    id: 5,
     name: "Vortex RGB 120",
     brand: "Vortex",
     size: 120,
@@ -82,7 +82,7 @@ export const fans: Fan[] = [
     image: "/images/vortex-rgb-120.jpg",
   },
   {
-    id: 5,
+    id: 6,
     name: "Zephyr 140 Silent",
     brand: "Zephyr",
     size: 140,
@@ -95,7 +95,7 @@ export const fans: Fan[] = [
     image: "/images/zephyr-140-silent.jpg",
   },
   {
-    id: 6,
+    id: 7,
     name: "Gale Force 200",
     brand: "Gale",
     size: 200,
@@ -108,7 +108,7 @@ export const fans: Fan[] = [
     image: "/images/gale-force-200.jpg",
   },
   {
-    id: 7,
+    id: 8,
     name: "Whisper Slim 92",
     brand: "Whisper",
     size: 92,
