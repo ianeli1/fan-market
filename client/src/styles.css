@@ -453,3 +453,166 @@ main.container {
   color: var(--muted);
   font-size: 13px;
 }
+
+/* ---------- checkout ---------- */
+
+.small {
+  font-size: 13px;
+}
+
+.checkout {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.checkout-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkout .summary {
+  flex-shrink: 0;
+  width: 300px;
+  position: sticky;
+  top: 84px;
+}
+
+.panel {
+  margin: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.panel legend {
+  padding: 0 6px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.field input:disabled {
+  color: var(--muted);
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.field-row {
+  display: flex;
+  gap: 14px;
+}
+
+.field-row .field {
+  flex: 1;
+}
+
+.payment-options {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 16px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+/* PayPal is not working yet, so the button is greyed out. */
+.paypal-button {
+  width: auto;
+  background: var(--line);
+  color: var(--muted);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.paypal-button:hover {
+  background: var(--line);
+}
+
+.summary-heading {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.checkout-items {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+.checkout-items li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.checkout .summary .button {
+  width: 100%;
+}
+
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.dialog {
+  min-width: 300px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  text-align: center;
+}
+
+.dialog h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .checkout {
+    flex-direction: column;
+  }
+
+  .checkout .summary {
+    width: 100%;
+    position: static;
+  }
+}

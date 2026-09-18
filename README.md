@@ -1,9 +1,10 @@
 # Fan Market
 
 A small online shop that sells computer case fans. It is deliberately simple:
-one React front end, one Express back end, no database, no login, no payments.
+one React front end, one Express back end, no database, no login, no real payments.
 
-The **Checkout** button does nothing on purpose — real payments come later.
+The checkout page collects an address and card details, but the **Pay** button
+does not charge anything yet — it just shows a "TO BE IMPLEMENTED" message.
 
 ---
 
@@ -19,11 +20,13 @@ The photos are real pictures of real computer fans, borrowed from Wikimedia
 Commons. `client/public/images/ATTRIBUTION.md` lists who took each one and
 under what licence — leave that file in place.
 
-Three pages:
+Four pages:
 
 1. **Home** (`/`) — the landing page with a few featured fans.
 2. **Shop Fans** (`/fans`) — the full list, with search, brand filter and sort.
-3. **Cart** (`/cart`) — what you picked, and a Checkout button that goes nowhere.
+3. **Cart** (`/cart`) — what you picked, and a Checkout button.
+4. **Checkout** (`/checkout`) — a Costa Rican shipping address and payment
+   details (credit card or PayPal), then a Pay button.
 
 ### How the two halves talk to each other
 

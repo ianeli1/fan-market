@@ -88,12 +88,9 @@ export default function CartPage() {
           <span>{formatPrice(orderTotal)}</span>
         </div>
 
-        <button
-          className="button button-large"
-          onClick={() => alert("Checkout is not built yet. Coming soon!")}
-        >
+        <Link to="/checkout" className="button button-large">
           Checkout
-        </button>
+        </Link>
 
         <button className="link-button" onClick={clearCart}>
           Empty the cart
