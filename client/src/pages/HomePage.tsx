@@ -17,7 +17,7 @@ export default function HomePage() {
       .finally(() => setLoading(false));
   }, []);
 
-  const featured = fans.slice(0, 4);
+  const featured = fans.slice(0, 3);
 
   return (
     <>
