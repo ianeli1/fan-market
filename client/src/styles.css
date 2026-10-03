@@ -110,6 +110,10 @@ main.container {
   padding: 70px 0 50px;
   text-align: center;
 }
+.heroBlue{
+  color:var(--accent);
+  text-align: center;
+}
 
 .hero h1 {
   font-size: 44px;
