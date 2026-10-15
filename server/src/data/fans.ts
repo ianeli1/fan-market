@@ -120,4 +120,17 @@ export const fans: Fan[] = [
     description: "Only 15mm thick, for cases where nothing else fits.",
     image: "/images/whisper-slim-92.jpg",
   },
+  {
+    id: 9,
+    name: "Noctua 120f-748k",
+    brand: "Noctua",
+    size: 120,
+    price: 30.99,
+    stock: 44,
+    rgb: false,
+    airflow: 70,
+    noise: 30,
+    description: "Girthy and Brown.",
+    image: "/images/noctua120.png",
+  }
 ];
