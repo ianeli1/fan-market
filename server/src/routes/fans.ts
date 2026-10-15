@@ -6,7 +6,7 @@ const router = Router();
 // GET /api/fans
 // Returns the whole catalogue as a JSON array.
 router.get("/", (req, res) => {
-  const catalogue = fans.slice(0, 5);
+  const catalogue = fans.slice(0);
   res.json(catalogue);
 });
 
